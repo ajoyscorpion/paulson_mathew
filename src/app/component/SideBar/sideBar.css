@@ -1,0 +1,43 @@
+.sidebar{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    top: 35%;
+    padding-left: 35px;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+  
+.icon {
+    color: white;
+    font-size: 24px;
+}
+  
+/* .sidebar:hover .icon {
+    transform: scale(1.2);
+} */
+
+@media screen and (max-width: 640px) {
+    .sidebar{
+        position: absolute;
+        padding-left: 3px;
+        top:30%
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .sidebar{
+        position: absolute;
+        padding-left: 30px;
+        top:35%
+    }
+}

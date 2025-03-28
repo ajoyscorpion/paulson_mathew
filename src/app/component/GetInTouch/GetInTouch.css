@@ -1,0 +1,45 @@
+.getInTouch{
+    font-size: 45px;
+    font-family: 'Caveat';
+    color: white;
+}
+.getInTouchText{
+    color: white;
+    font-family: 'Caveat';
+    font-size: 25px;
+    transform: rotate(-10deg);
+}
+.getInTouchArrow{
+    top: 130px;
+    left: 350px;
+}
+
+.getInTouchArrow img{
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 640px) {
+    .getInTouch{
+        font-size: 25px;
+        margin-top: 50px;
+        height: 20vh;
+    }
+    .getInTouchText{
+        font-size: 13px;
+        transform: rotate(-10deg);
+    }
+    .getInTouchArrow{
+        top: 50px;
+        left: 13px;
+    }
+    .getInTouchArrow img{
+        width: 100px;
+        height: 100px;
+        margin-top: -17px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    /* Styles for screens between 641px and 768px */
+}
