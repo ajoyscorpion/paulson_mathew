@@ -18,6 +18,7 @@ import { useEffect, useRef } from "react"
 
 function About() {
 
+    const base_url = "https://www.paulsonmathew.com"
 
   return (
     <div id='about' className='about lg:h-[100vh] scroll-mt-[170px]  lg:scroll-mt-[200px]'>
@@ -34,17 +35,17 @@ function About() {
                 <div className='p'>
                     <span className='block mt-2.5 text-center'>
                          I’m a passionate 
-                         <LinkPreview imageSrc='/images/fullStackDeveloper.png' isStatic url="http://localhost:3000/Projects" className='text-white, font-bold'> Full-Stack Developer</LinkPreview>, 
-                         <LinkPreview imageSrc='/images/ml.png' isStatic url="http://localhost:3000/Projects" className='text-white, font-bold'> ML Engineer</LinkPreview>, and 
-                         <LinkPreview imageSrc='/images/underConstruction.png' isStatic url="http://localhost:3000/UnderConstruction" className='text-white, font-bold'> Project Coordinator</LinkPreview>, 
+                         <LinkPreview imageSrc='/images/fullStackDeveloper.png' isStatic url={`${base_url}/Projects`} className='text-white, font-bold'> Full-Stack Developer</LinkPreview>, 
+                         <LinkPreview imageSrc='/images/ml.png' isStatic url={`${base_url}/Projects`} className='text-white, font-bold'> ML Engineer</LinkPreview>, and 
+                         <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Project Coordinator</LinkPreview>, 
                          who thrives on building innovative solutions and managing impactful projects. With expertise in software development and machine learning, I blend problem-solving with structured execution.
                     </span>
                     <span className='block mt-2.5 text-center'>
                         Beyond tech, I’m a 
-                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url="http://localhost:3000/UnderConstruction" className='text-white, font-bold'> Photographer</LinkPreview>, 
-                        <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url="http://localhost:3000/UnderConstruction" className='text-white, font-bold'> Vocalist</LinkPreview>, 
-                        <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url="http://localhost:3000/UnderConstruction" className='text-white, font-bold'> Pianist</LinkPreview>, 
-                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url="http://localhost:3000/UnderConstruction" className='text-white, font-bold'> Paper Artist</LinkPreview> and a 
+                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Photographer</LinkPreview>, 
+                        <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Vocalist</LinkPreview>, 
+                        <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Pianist</LinkPreview>, 
+                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Paper Artist</LinkPreview> and a 
                         <LinkPreview imageSrc='/images/Surfer.png' isStatic url="https://www.instagram.com/p/C8ACiUhSp7TM8yALBkFQ6jiASzML1DK74GS_ws0/?hl=en&img_index=1" className='text-white font-bold'> Surfer</LinkPreview>, 
                         exploring creativity through music, storytelling, and visual art.
                     </span>
