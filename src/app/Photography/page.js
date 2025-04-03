@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion';
 
-function page() {
+function Photography() {
     
     const [selectedImage, setSelectedImage] = useState(null);
     //const [scrollY, setScrollY] = useState(0);
@@ -107,4 +107,4 @@ function page() {
   )
 }
 
-export default page
+export default Photography
