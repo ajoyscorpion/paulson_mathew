@@ -42,7 +42,7 @@ function About() {
                     </span>
                     <span className='block mt-2.5 text-center'>
                         Beyond tech, I’m a 
-                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Photographer</LinkPreview>, 
+                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url="http://localhost:3000/Photography" className='text-white, font-bold'> Photographer</LinkPreview>, 
                         <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Vocalist</LinkPreview>, 
                         <LinkPreview imageSrc='/images/projectImages/bSharpMusic.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Pianist</LinkPreview>, 
                         <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Paper Artist</LinkPreview> and a 

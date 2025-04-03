@@ -14,6 +14,7 @@ import AssignmentSharpIcon from '@mui/icons-material/AssignmentSharp';
 import HomeIcon from '@mui/icons-material/Home';
 import AIRag from './component/AIRag'
 import DialogflowChat from './component/AIRag';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({ children }) {
   
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
         <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Itim&display=swap" rel="stylesheet"></link>
       </head>
+      
       <body className={styles.body}>
         <Navbar/>
         
@@ -42,8 +44,10 @@ export default function RootLayout({ children }) {
             { title: 'About', href:'/#about',icon: <PersonSharpIcon style={{color:"white"}}/>,id:'about' },
             {title:"Projects",href:'/Projects',icon:<AssignmentSharpIcon style={{color:"white"}}/>}]} 
         />
-        <SideBar/> 
+        <SideBar/>
+        <Analytics />
       </body>
+
     </html>
   )
 }
