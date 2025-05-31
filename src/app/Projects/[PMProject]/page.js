@@ -5,7 +5,7 @@ import { PMProjectData } from '../PMProjectData';
 import { useRouter } from 'next/navigation';
 
 
-function Page() {
+function PMProjects() {
     const router = useRouter();
 
     const {PMProject} = useParams()
@@ -31,7 +31,7 @@ function Page() {
   )
 }
 
-export default Page
+export default PMProjects
 
 
 
