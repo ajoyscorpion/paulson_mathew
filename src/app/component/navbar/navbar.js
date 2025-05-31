@@ -14,7 +14,7 @@ function Navbar() {
 
   useEffect(() => {
     const updateShowName = () => {
-      if (window.scrollY > 500 || pathname === "/Projects" || pathname === "/Photography") {
+      if (window.scrollY > 500 || pathname === "/Projects" || pathname === "/Photography" || pathname.includes("/Projects/")) {
         setShowName(true);
       } else {
         setShowName(false);

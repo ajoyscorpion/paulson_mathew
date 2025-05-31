@@ -262,7 +262,52 @@ export const MScCards = [
 
 // Project Management
 
-export const ProjectManagement = [
-    
 
+const ProjectManagementCardOne = () => {
+    return(
+        <div>
+            <p className="font-bold md:text-xl text-xl text">
+                AI-Powered Nurse Assistant for Reducing Medical Errors
+            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+                An AI-powered assistant designed to reduce medical errors and streamline nurse workflows in hospitals. 
+                The system automates vitals monitoring, sends real-time alerts, and generates shift reports, improving patient safety and operational efficiency. 
+                Implemented with a phased rollout strategy and HIPAA-compliant design.
+            </p>
+        </div>
+    )
+}
+
+const ProjectManagementCardTwo = () => {
+    return(
+        <div>
+            <p className="font-bold md:text-xl text-xl text">
+                Smart Hospital Appointment System
+            </p>
+            <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
+                Developed a smart hospital appointment system to enhance patient experience and operational efficiency. 
+                The system integrates real-time appointment scheduling, automated reminders, and a user-friendly interface for both patients and healthcare providers. 
+                Focused on reducing wait times and improving resource allocation in healthcare facilities.
+            </p>
+        </div>
+    )
+}
+
+
+export const ProjectManagement = [
+    {
+        id:1,
+        content:<ProjectManagementCardTwo/>,
+        className:"col-span-8",
+        thumbnail:"/images/projectImages/Smart Hospital Appointment.png",
+        link:'/Projects/hospital-appointment-system'
+    },
+    {
+        id:2,
+        content:<ProjectManagementCardOne/>,
+        className:"col-span-8",
+        thumbnail:"/images/projectImages/Nurse Assistant.png",
+        link:'/Projects/nurse-assistant'
+    },
+       
 ]
