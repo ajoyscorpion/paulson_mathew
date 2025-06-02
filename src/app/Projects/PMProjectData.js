@@ -396,7 +396,7 @@ const NuresAssistant = () => {
             {/* Button Download PDF */}
             <div className='mb-6 flex justify-center items-center'>
                 <a
-                    href="/project-details.pdf" // Update with your actual file path
+                    href="https://docs.google.com/document/d/1h89hygUMsCOadtZ2yzStGG6cCul9EJqz3sez4YEvkPg/edit?usp=sharing" // Update with your actual file path
                     download
                     className="text-[13px] inline-block px-3 py-3 bg-green-600 text-white text-lg font-medium rounded-xl shadow hover:bg-green-700 transition duration-300"
                 >
