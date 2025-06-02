@@ -9,11 +9,9 @@ function PMProjects() {
     const router = useRouter();
 
     const {PMProject} = useParams()
-    console.log(PMProject);
 
     const project = PMProjectData.find((item) => item.name === PMProject);
-    console.log(project);
-
+   
   return (
     <div className='flex justify-center items-center mt-45 '>
 
