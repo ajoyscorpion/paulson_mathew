@@ -187,7 +187,7 @@ const SmartHospitalAppointmentSystem = () => {
             {/* Button Download PDF */}
             <div className='mb-6 flex justify-center items-center'>
                 <a
-                    href="/project-details.pdf" // Update with your actual file path
+                    href="https://drive.google.com/file/d/1ppbi7kDVYzC-1qUFHF1aFxvdRK2ZcASd/view?usp=sharing" // Update with your actual file path
                     download
                     className="text-[13px] inline-block px-3 py-3 bg-green-600 text-white text-lg font-medium rounded-xl shadow hover:bg-green-700 transition duration-300"
                 >
