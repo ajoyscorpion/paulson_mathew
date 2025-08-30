@@ -15,7 +15,7 @@ function GetInTouch() {
           <p>ajoyscorpion@gmail.com</p>
         </Link>
       </motion.div>
-      <div className='getInTouchArrow absolute'>
+      <div className='getInTouchArrow absolute lg:block hidden'>
           <p className='getInTouchText'>Get In Touch</p>
           <Image className='lg:ml-8 lg:mt-[-30px]' src="/images/GetInTouch.PNG" alt="Get In Touch Arrow" width={200} height={200}/>
       </div>

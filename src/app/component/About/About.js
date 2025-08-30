@@ -35,7 +35,7 @@ function About() {
                 <div className='p'>
                     <span className='block mt-2.5 text-center'>
                         I’m a passionate
-                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Project Coordinator</LinkPreview>, 
+                        <LinkPreview imageSrc='/images/underConstruction.png' isStatic url={`${base_url}/UnderConstruction`} className='text-white, font-bold'> Associate Project Manager</LinkPreview>, 
                         <LinkPreview imageSrc='/images/fullStackDeveloper.png' isStatic url={`${base_url}/Projects`} className='text-white, font-bold'> Full-Stack Developer</LinkPreview>, 
                         <LinkPreview imageSrc='/images/ml.png' isStatic url={`${base_url}/Projects`} className='text-white, font-bold'> ML Engineer</LinkPreview>, and  
                         who thrives on building innovative solutions and managing impactful projects. With expertise in software development and machine learning, I blend problem-solving with structured execution.
@@ -79,7 +79,7 @@ function About() {
                             rel="noopener noreferrer" 
                             className='text-white'
                         >
-                            Kottayam
+                            Bengaluru
                         </a>
                     </motion.div>
                     <motion.div

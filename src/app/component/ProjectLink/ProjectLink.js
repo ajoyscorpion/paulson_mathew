@@ -25,24 +25,30 @@ function ProjectLink() {
       
       <div className='projectLinkContent flex items-center justify-center'>
         {/* Responsive Check Out Arrow */}
-        <div className='checkOutArrow absolute 
-                        top-[-70px] right-[450px] 
-                        md:top-[-60px] md:right-[300px]
-                        sm:top-[-50px] sm:right-[100px]
-                        xs:top-[-30px] xs:right-[50px]'>
+        <div 
+          className='
+            checkOutArrow absolute 
+            top-[-70px] right-[450px] 
+            md:top-[-60px] md:right-[300px]
+            sm:top-[-50px] sm:right-[100px]
+            xs:top-[-30px] xs:right-[50px]
+            lg:block
+            hidden
+          '
+        >
                     
-                    <p className='text-[20px] md:text-[18px] sm:text-[15px] xs:text-[13px] font-[Caveat] rotate-[5deg]'>
-                        Check Out My Projects
-                    </p>
+          <p className='text-[20px] md:text-[18px] sm:text-[15px] xs:text-[13px] font-[Caveat] rotate-[5deg]'>
+              Check Out My Projects
+          </p>
                     
-                    <Image 
-                        className='w-[200px] h-[200px] md:w-[150px] md:h-[150px] sm:w-[120px] sm:h-[120px] xs:w-[100px] xs:h-[100px] mt-[-40px] lg:-ml-8 lg:mt-[-80px]'
-                        src="/images/IMG_0204.PNG" 
-                        alt='Check out my project'
-                        width={200}
-                        height={200}
-                    />
-                </div>
+          <Image 
+              className='w-[200px] h-[200px] md:w-[150px] md:h-[150px] sm:w-[120px] sm:h-[120px] xs:w-[100px] xs:h-[100px] mt-[-40px] lg:-ml-8 lg:mt-[-80px]'
+              src="/images/IMG_0204.PNG" 
+              alt='Check out my project'
+              width={200}
+              height={200}
+          />
+        </div>
 
         <div className='largeScreenProjects flex gap-6 items-center justify-center '>
           <motion.div
@@ -63,9 +69,7 @@ function ProjectLink() {
             </Link>
           </motion.div>
         </div>
-      </div>
-
-      
+      </div>  
     </motion.div>
   )
 }
