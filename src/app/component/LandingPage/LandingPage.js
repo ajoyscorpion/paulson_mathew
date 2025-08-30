@@ -37,9 +37,9 @@ function LandingPage() {
                 scale: { type: "spring", visualDuration: 0.4, bounce: 0.3 },
             }}
         >
-            <p>Full Stack Developer</p>
+            <p>Associate Project Manager</p>
             <p className='bar'>|</p>
-            <p>Project Coordinator</p>
+            <p>Full Stack Developer</p>
             <p className='bar'>|</p>
             <p>ML Engineer</p>
         </motion.div>
