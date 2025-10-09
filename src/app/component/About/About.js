@@ -87,7 +87,7 @@ function About() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.9 }}
                     >
-                        <motion.a href='/resume/paulson mathew resume.pdf' download="Paulson Mathew.pdf" whileHover={{ scale: 1.1 }} className="bg-black border border-gray-400 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                        <motion.a href='/resume/Paulson Mathew Resume.pdf' download="Paulson Mathew.pdf" whileHover={{ scale: 1.1 }} className="bg-black border border-gray-400 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                             <span className="absolute inset-0 overflow-hidden rounded-full">
                                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
                             </span>
