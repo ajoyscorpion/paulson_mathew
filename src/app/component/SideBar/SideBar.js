@@ -30,7 +30,7 @@ function SideBar() {
                 {icon: <LinkedInIcon style={{color:"white"}} className='icon'/>, link: "https://www.linkedin.com/in/paulsonmathew/"},
                 {icon: <InstagramIcon style={{color:"white"}} className='icon'/>, link: "https://www.instagram.com/paulson_mathew_3/?hl=en"},
                 {icon: <WhatsAppIcon style={{color:"white"}} className='icon'/>, link: "https://wa.me/918113000923"},
-                {icon: <EmailIcon style={{color:"white"}} className='icon'/>, link: "mailto:ajoyscorpion@gmail.com"},
+                {icon: <EmailIcon style={{color:"white"}} className='icon'/>, link: "mailto:paulsonmathew11@gmail.com"},
                 {icon: <GitHubIcon style={{color:"white"}} className='icon'/>, link: "https://github.com/ajoyscorpion"},
             ].map((item, index) => (
                 <motion.div className="icon-container" key={index} whileHover={{ scale: 1.1 }}>

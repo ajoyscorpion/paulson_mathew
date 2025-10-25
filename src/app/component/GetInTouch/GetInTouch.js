@@ -11,8 +11,8 @@ function GetInTouch() {
       <motion.div
         whileHover={{ scale: 1.1 }}
       >  
-        <Link href="mailto:ajoyscorpion@gmail.com" className="hover:underline hover:decoration-gray-100 hover:underline-offset-4" style={{textDecorationThickness:"1.5px"}}>
-          <p>ajoyscorpion@gmail.com</p>
+        <Link href="mailto:paulsonmathew11@gmail.com" className="hover:underline hover:decoration-gray-100 hover:underline-offset-4" style={{textDecorationThickness:"1.5px"}}>
+          <p>paulsonmathew11@gmail.com</p>
         </Link>
       </motion.div>
       <div className='getInTouchArrow absolute lg:block hidden'>
